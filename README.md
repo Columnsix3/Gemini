@@ -1,1 +1,1 @@
-"# Gemini" 
+Welcome to the Gemini Repository!
