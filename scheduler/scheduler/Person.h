@@ -13,6 +13,7 @@ private:
     bool _is_working;
     // std::vector<std::string> _days_off;
 public:
+    Person();
     Person(std::string, std::string, float, float, float, bool);
     //, std::string
     void SetName(std::string);
