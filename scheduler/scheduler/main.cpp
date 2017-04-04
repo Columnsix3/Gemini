@@ -27,11 +27,13 @@ int main() {
     // array of objects
     std::array<Person, 15> array = { emp1, emp2, emp3, emp4, emp5, emp6, emp7, emp8, emp9, emp10, emp11, emp12, emp13, emp14, emp15 };
 
+    // this for loop acts like a week 
     for (int i = 0; i < 7; i++) {
 
         // this is the counter for the inner for loop and it gets set to zero everytime the outter for loop runs to reset it so the inner one will run again
         int x = 0;
 
+        // this for loop acts like a single day
         for (x = 0; x < array.size(); x++) {
             
             std::cout << " * ";
