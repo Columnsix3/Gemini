@@ -3,6 +3,10 @@
 #include <vector>
 #include "Person.h"
 
+Person::Person() {
+
+}
+
 Person::Person(std::string name_of_the_person, std::string position_of_the_person, float pay_of_the_person, float max_hours_of_the_person, float worked_hours_of_the_person, bool is_the_person_working) {
     _name = name_of_the_person;
     _position = position_of_the_person;
